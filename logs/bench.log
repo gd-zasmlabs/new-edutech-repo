@@ -1,0 +1,169 @@
+2025-07-22 11:25:05,012 DEBUG cd education-bench && python3 -m venv env
+2025-07-22 11:25:11,324 DEBUG cd education-bench && /home/glavin/education-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-07-22 11:25:14,574 DEBUG cd education-bench && /home/glavin/education-bench/env/bin/python -m pip install --quiet wheel
+2025-07-22 11:25:16,414 LOG Getting frappe
+2025-07-22 11:25:16,415 DEBUG cd education-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2025-07-22 11:25:22,720 LOG Installing frappe
+2025-07-22 11:25:22,722 DEBUG cd /home/glavin/education-bench && /home/glavin/education-bench/env/bin/python -m pip install --quiet --upgrade -e /home/glavin/education-bench/apps/frappe 
+2025-07-22 11:26:01,231 DEBUG cd /home/glavin/education-bench/apps/frappe && yarn install --check-files
+2025-07-22 11:26:05,599 DEBUG cd education-bench && bench build
+2025-07-22 11:26:05,848 INFO /home/glavin/.local/bin/bench build
+2025-07-22 11:26:21,065 LOG setting up backups
+2025-07-22 11:26:21,082 LOG backups were set up
+2025-07-22 11:26:21,082 INFO Bench education-bench initialized
+2025-07-22 11:26:21,237 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-22 11:26:37,865 INFO /home/glavin/.local/bin/bench get-app erpnext --branch version-15
+2025-07-22 11:26:38,457 LOG Getting erpnext
+2025-07-22 11:26:38,457 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2025-07-22 11:26:44,175 LOG Installing erpnext
+2025-07-22 11:26:44,176 DEBUG cd /home/glavin/education-bench && /home/glavin/education-bench/env/bin/python -m pip install --quiet --upgrade -e /home/glavin/education-bench/apps/erpnext 
+2025-07-22 11:26:53,705 DEBUG cd /home/glavin/education-bench/apps/erpnext && yarn install --check-files
+2025-07-22 11:26:54,493 DEBUG bench build --app erpnext
+2025-07-22 11:26:54,752 INFO /home/glavin/.local/bin/bench build --app erpnext
+2025-07-22 11:26:58,365 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-22 11:27:06,334 INFO /home/glavin/.local/bin/bench new-site education.local
+2025-07-22 11:28:04,724 INFO /home/glavin/.local/bin/bench --site education.local install-app erpnext
+2025-07-22 11:30:10,793 INFO /home/glavin/.local/bin/bench start
+2025-07-22 11:30:11,254 INFO /home/glavin/.local/bin/bench worker
+2025-07-22 11:30:11,266 INFO /home/glavin/.local/bin/bench watch
+2025-07-22 11:30:11,266 INFO /home/glavin/.local/bin/bench serve --port 8002
+2025-07-22 11:30:11,268 INFO /home/glavin/.local/bin/bench schedule
+2025-07-22 11:32:08,287 INFO /home/glavin/.local/bin/bench start
+2025-07-22 11:32:15,880 INFO /home/glavin/.local/bin/bench start
+2025-07-22 11:33:47,374 INFO /home/glavin/.local/bin/bench start
+2025-07-22 11:33:47,859 INFO /home/glavin/.local/bin/bench schedule
+2025-07-22 11:33:47,869 INFO /home/glavin/.local/bin/bench watch
+2025-07-22 11:33:47,872 INFO /home/glavin/.local/bin/bench serve --port 8002
+2025-07-22 11:33:47,874 INFO /home/glavin/.local/bin/bench worker
+2025-07-22 11:42:52,448 INFO /home/glavin/.local/bin/bench use education.local
+2025-07-22 11:42:53,931 INFO /home/glavin/.local/bin/bench start
+2025-07-22 11:46:30,687 INFO /home/glavin/.local/bin/bench use education.local
+2025-07-22 11:46:37,563 INFO /home/glavin/.local/bin/bench start
+2025-07-22 11:46:38,075 INFO /home/glavin/.local/bin/bench serve --port 8002
+2025-07-22 11:46:38,076 INFO /home/glavin/.local/bin/bench schedule
+2025-07-22 11:46:38,077 INFO /home/glavin/.local/bin/bench watch
+2025-07-22 11:46:38,078 INFO /home/glavin/.local/bin/bench worker
+2025-07-22 12:00:01,915 INFO /home/glavin/.local/bin/bench --verbose --site all backup
+2025-07-22 12:01:30,273 INFO /home/glavin/.local/bin/bench new-app edutech
+2025-07-22 12:01:30,276 LOG creating new app edutech
+2025-07-22 12:02:32,039 LOG Installing edutech
+2025-07-22 12:02:32,041 DEBUG cd /home/glavin/education-bench && /home/glavin/education-bench/env/bin/python -m pip install --quiet --upgrade -e /home/glavin/education-bench/apps/edutech 
+2025-07-22 12:02:33,635 DEBUG bench build --app edutech
+2025-07-22 12:02:33,714 INFO /home/glavin/.local/bin/bench build --app edutech
+2025-07-22 12:02:35,094 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-22 12:02:54,272 INFO /home/glavin/.local/bin/bench --site education.local install-app edutech
+2025-07-22 12:03:28,770 INFO /home/glavin/.local/bin/bench --site education.local console
+2025-07-22 12:07:09,087 INFO /home/glavin/.local/bin/bench start
+2025-07-22 12:07:09,310 INFO /home/glavin/.local/bin/bench serve --port 8002
+2025-07-22 12:07:09,311 INFO /home/glavin/.local/bin/bench worker
+2025-07-22 12:07:09,312 INFO /home/glavin/.local/bin/bench schedule
+2025-07-22 12:07:09,312 INFO /home/glavin/.local/bin/bench watch
+2025-07-22 12:07:43,760 INFO /home/glavin/.local/bin/bench console
+2025-07-22 12:09:34,300 INFO /home/glavin/.local/bin/bench --site site1.local new-module Student Management --app edutech
+2025-07-22 12:16:22,408 INFO /home/glavin/.local/bin/bench --site site1.local clear-cache
+2025-07-22 12:16:22,972 INFO /home/glavin/.local/bin/bench restart
+2025-07-22 12:16:23,117 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-22 12:16:32,825 INFO /home/glavin/.local/bin/bench console
+2025-07-22 12:21:52,422 INFO /home/glavin/.local/bin/bench restart
+2025-07-22 12:21:52,688 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-22 12:22:09,702 INFO /home/glavin/.local/bin/bench console
+2025-07-22 12:37:55,038 INFO /home/glavin/.local/bin/bench --site education.local add-module faculty_management --app edutech
+2025-07-22 12:42:03,156 INFO /home/glavin/.local/bin/bench --site education.local make-doctype Faculty --module Faculty Management --app edutech --fields [{"fieldname":"faculty_id","label":"Faculty ID","fieldtype":"Data","reqd":1}, {"fieldname":"full_name","label":"Full Name","fieldtype":"Data","reqd":1}, {"fieldname":"email","label":"Email","fieldtype":"Data"}, {"fieldname":"phone","label":"Phone","fieldtype":"Data"}, {"fieldname":"specialization","label":"Specialization","fieldtype":"Data"}, {"fieldname":"status","label":"Status","fieldtype":"Select","options":"Active\nInactive"}] --create-desk-entry
+2025-07-22 12:47:44,384 INFO /home/glavin/.local/bin/bench --site education.local make-module Faculty Management --app edutech
+2025-07-22 12:59:11,760 INFO /home/glavin/.local/bin/bench new-doctype Faculty --module Faculty Management --app edutech
+2025-07-22 13:00:28,624 INFO /home/glavin/.local/bin/bench new-doctype Faculty --module Faculty Management --app edutech
+2025-07-22 13:00:39,204 INFO /home/glavin/.local/bin/bench --site education.local new-doctype Faculty --module Faculty Management --app edutech
+2025-07-22 14:39:18,750 INFO /home/glavin/.local/bin/bench console
+2025-07-22 15:04:11,774 INFO /home/glavin/.local/bin/bench migrate
+2025-07-22 15:23:42,800 INFO /home/glavin/.local/bin/bench console
+2025-07-22 18:00:01,332 INFO /home/glavin/.local/bin/bench --verbose --site all backup
+2025-07-23 09:42:46,895 INFO /home/glavin/.local/bin/bench start
+2025-07-23 09:42:47,329 INFO /home/glavin/.local/bin/bench schedule
+2025-07-23 09:42:47,347 INFO /home/glavin/.local/bin/bench serve --port 8002
+2025-07-23 09:42:47,357 INFO /home/glavin/.local/bin/bench watch
+2025-07-23 09:42:47,384 INFO /home/glavin/.local/bin/bench worker
+2025-07-23 10:23:44,059 INFO /home/glavin/.local/bin/bench console
+2025-07-23 11:32:43,776 INFO /home/glavin/.local/bin/bench restart
+2025-07-23 11:32:44,079 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-23 11:32:44,403 INFO /home/glavin/.local/bin/bench clear-cache
+2025-07-23 11:32:45,143 INFO /home/glavin/.local/bin/bench clear-website-cache
+2025-07-23 11:32:53,317 INFO /home/glavin/.local/bin/bench migrate
+2025-07-23 11:38:38,479 INFO /home/glavin/.local/bin/bench console
+2025-07-23 11:45:12,885 INFO /home/glavin/.local/bin/bench migrate
+2025-07-23 11:45:59,172 INFO /home/glavin/.local/bin/bench migrate
+2025-07-23 11:46:35,890 INFO /home/glavin/.local/bin/bench start
+2025-07-23 11:48:28,246 INFO /home/glavin/.local/bin/bench start
+2025-07-23 11:48:28,664 INFO /home/glavin/.local/bin/bench schedule
+2025-07-23 11:48:28,713 INFO /home/glavin/.local/bin/bench serve --port 8002
+2025-07-23 11:48:28,725 INFO /home/glavin/.local/bin/bench worker
+2025-07-23 11:48:28,733 INFO /home/glavin/.local/bin/bench watch
+2025-07-23 11:50:11,240 INFO /home/glavin/.local/bin/bench --site education.local migrate
+2025-07-23 12:00:01,855 INFO /home/glavin/.local/bin/bench --verbose --site all backup
+2025-07-23 13:03:15,762 INFO /home/glavin/.local/bin/bench migrate
+2025-07-23 13:10:40,897 INFO /home/glavin/.local/bin/bench migrate
+2025-07-23 13:11:18,504 INFO /home/glavin/.local/bin/bench edutech --version
+2025-07-23 18:00:01,545 INFO /home/glavin/.local/bin/bench --verbose --site all backup
+2025-07-24 10:05:05,224 INFO /home/glavin/.local/bin/bench start
+2025-07-24 10:05:05,544 INFO /home/glavin/.local/bin/bench schedule
+2025-07-24 10:05:05,635 INFO /home/glavin/.local/bin/bench serve --port 8002
+2025-07-24 10:05:05,636 INFO /home/glavin/.local/bin/bench watch
+2025-07-24 10:05:05,640 INFO /home/glavin/.local/bin/bench worker
+2025-07-24 11:36:11,764 INFO /home/glavin/.local/bin/bench migrate
+2025-07-24 12:00:01,900 INFO /home/glavin/.local/bin/bench --verbose --site all backup
+2025-07-24 13:24:38,092 INFO /home/glavin/.local/bin/bench clear-cache
+2025-07-24 13:24:38,845 INFO /home/glavin/.local/bin/bench build
+2025-07-24 13:24:53,863 INFO /home/glavin/.local/bin/bench restart
+2025-07-24 13:24:54,092 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-24 13:25:20,017 INFO /home/glavin/.local/bin/bench migrate
+2025-07-24 13:28:02,694 INFO /home/glavin/.local/bin/bench migrate
+2025-07-24 13:47:01,628 INFO /home/glavin/.local/bin/bench migrate
+2025-07-24 13:47:35,314 INFO /home/glavin/.local/bin/bench migrate
+2025-07-24 13:48:37,092 INFO /home/glavin/.local/bin/bench clear-cache
+2025-07-24 13:48:41,864 INFO /home/glavin/.local/bin/bench build
+2025-07-24 13:55:59,644 INFO /home/glavin/.local/bin/bench build
+2025-07-24 13:56:17,156 INFO /home/glavin/.local/bin/bench clear-cache
+2025-07-24 13:56:17,798 INFO /home/glavin/.local/bin/bench restart
+2025-07-24 13:56:18,361 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-24 18:00:01,874 INFO /home/glavin/.local/bin/bench --verbose --site all backup
+2025-07-25 09:18:49,534 INFO /home/glavin/.local/bin/bench start
+2025-07-25 09:18:50,009 INFO /home/glavin/.local/bin/bench worker
+2025-07-25 09:18:50,027 INFO /home/glavin/.local/bin/bench serve --port 8002
+2025-07-25 09:18:50,027 INFO /home/glavin/.local/bin/bench watch
+2025-07-25 09:18:50,029 INFO /home/glavin/.local/bin/bench schedule
+2025-07-25 10:25:48,076 INFO /home/glavin/.local/bin/bench restart
+2025-07-25 10:25:48,464 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-25 10:25:54,597 INFO /home/glavin/.local/bin/bench migrate
+2025-07-25 10:56:20,177 INFO /home/glavin/.local/bin/bench console
+2025-07-25 11:30:26,019 INFO /home/glavin/.local/bin/bench --site education.local logs --tail
+2025-07-25 11:35:01,293 INFO /home/glavin/.local/bin/bench --site education.local tail -f logs/web.log
+2025-07-25 12:00:02,100 INFO /home/glavin/.local/bin/bench --verbose --site all backup
+2025-07-25 12:14:27,632 INFO /home/glavin/.local/bin/bench --site education.local console
+2025-07-25 15:36:41,425 INFO /home/glavin/.local/bin/bench restart
+2025-07-25 15:36:41,817 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-25 16:03:09,251 INFO /home/glavin/.local/bin/bench build --app edutech
+2025-07-25 16:03:13,395 INFO /home/glavin/.local/bin/bench restart
+2025-07-25 16:03:13,763 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-25 16:30:49,023 INFO /home/glavin/.local/bin/bench watch
+2025-07-25 17:17:09,602 INFO /home/glavin/.local/bin/bench build --apps edutech
+2025-07-25 17:33:43,826 INFO /home/glavin/.local/bin/bench build --apps edutech
+2025-07-25 18:00:01,779 INFO /home/glavin/.local/bin/bench --verbose --site all backup
+2025-07-28 09:45:30,537 INFO /home/glavin/.local/bin/bench start
+2025-07-28 09:45:31,019 INFO /home/glavin/.local/bin/bench worker
+2025-07-28 09:45:31,024 INFO /home/glavin/.local/bin/bench schedule
+2025-07-28 09:45:31,025 INFO /home/glavin/.local/bin/bench serve --port 8002
+2025-07-28 09:45:31,032 INFO /home/glavin/.local/bin/bench watch
+2025-07-28 11:37:53,844 INFO /home/glavin/.local/bin/bench --site education.local console
+2025-07-28 12:00:01,117 INFO /home/glavin/.local/bin/bench --verbose --site all backup
+2025-07-28 15:32:40,317 INFO /home/glavin/.local/bin/bench start
+2025-07-28 15:32:40,540 INFO /home/glavin/.local/bin/bench schedule
+2025-07-28 15:32:40,543 INFO /home/glavin/.local/bin/bench worker
+2025-07-28 15:32:40,546 INFO /home/glavin/.local/bin/bench serve --port 8002
+2025-07-28 15:32:40,548 INFO /home/glavin/.local/bin/bench watch
+2025-07-28 18:00:01,913 INFO /home/glavin/.local/bin/bench --verbose --site all backup
+2025-07-29 09:40:41,824 INFO /home/glavin/.local/bin/bench start
+2025-07-29 09:40:41,996 INFO /home/glavin/.local/bin/bench schedule
+2025-07-29 09:40:41,998 INFO /home/glavin/.local/bin/bench watch
+2025-07-29 09:40:41,998 INFO /home/glavin/.local/bin/bench serve --port 8002
+2025-07-29 09:40:42,004 INFO /home/glavin/.local/bin/bench worker
+2025-07-29 10:14:32,154 INFO /home/glavin/.local/bin/bench start
+2025-07-29 12:00:02,104 INFO /home/glavin/.local/bin/bench --verbose --site all backup

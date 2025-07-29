@@ -1,0 +1,142 @@
+2025-07-22 12:19:31,967 INFO ipython === bench console session ===
+2025-07-22 12:19:31,967 INFO ipython frappe.get_doc({
+    "doctype": "DocType",
+    "name": "Student",
+    "module": "Student Management",
+    "custom": 0,
+    "fields": [
+        {"fieldname": "student_id", "label": "Student ID", "fieldtype": "Data", "reqd": 1},
+        {"fieldname": "first_name", "label": "First Name", "fieldtype": "Data", "reqd": 1},
+        {"fieldname": "last_name", "label": "Last Name", "fieldtype": "Data"},
+        {"fieldname": "gender", "label": "Gender", "fieldtype": "Select", "options": "Male\nFemale\nOther"},
+        {"fieldname": "date_of_birth", "label": "Date of Birth", "fieldtype": "Date"},
+        {"fieldname": "email", "label": "Email", "fieldtype": "Data"},
+        {"fieldname": "phone", "label": "Phone", "fieldtype": "Data"},
+        {"fieldname": "address", "label": "Address", "fieldtype": "Small Text"},
+        {"fieldname": "guardian", "label": "Guardian", "fieldtype": "Link", "options": "Guardian"},
+        {"fieldname": "enrollments", "label": "Enrollments", "fieldtype": "Table", "options": "Enrollment"}
+    ],
+    "permissions": [{"role": "System Manager", "permlevel": 0, "read": 1, "write": 1, "create": 1}]
+}).insert()
+2025-07-22 12:19:31,967 INFO ipython frappe.get_doc({
+    "doctype": "Module Def",
+    "module_name": "Student Management",
+    "app_name": "edutech"
+}).insert()
+2025-07-22 12:19:31,967 INFO ipython frappe.get_doc({
+    "doctype": "DocType",
+    "name": "Student",
+    "module": "Student Management",
+    "custom": 0,
+    "fields": [
+        {"fieldname": "student_id", "label": "Student ID", "fieldtype": "Data", "reqd": 1},
+        {"fieldname": "first_name", "label": "First Name", "fieldtype": "Data", "reqd": 1},
+        {"fieldname": "last_name", "label": "Last Name", "fieldtype": "Data"},
+        {"fieldname": "gender", "label": "Gender", "fieldtype": "Select", "options": "Male\nFemale\nOther"},
+        {"fieldname": "date_of_birth", "label": "Date of Birth", "fieldtype": "Date"},
+        {"fieldname": "email", "label": "Email", "fieldtype": "Data"},
+        {"fieldname": "phone", "label": "Phone", "fieldtype": "Data"},
+        {"fieldname": "address", "label": "Address", "fieldtype": "Small Text"}
+    ],
+    "permissions": [
+        {
+            "role": "System Manager",
+            "permlevel": 0,
+            "read": 1,
+            "write": 1,
+            "create": 1
+        }
+    ]
+}).insert()
+2025-07-22 12:19:31,967 INFO ipython === session end ===
+2025-07-23 11:32:39,883 INFO ipython === bench console session ===
+2025-07-23 11:32:39,892 INFO ipython import frappe
+
+doc = frappe.get_doc({
+    "doctype": "Report",
+    "name": "Student List Report",
+    "ref_doctype": "Student",
+    "report_type": "Query Report",
+    "is_standard": "No",
+    "module": "Student Management",
+    "query": "SELECT name, first_name, last_name, email FROM `tabStudent`"
+})
+doc.insert()
+frappe.db.commit()
+2025-07-23 11:32:39,892 INFO ipython import frappe
+
+doc = frappe.get_doc({
+    "doctype": "Report",
+    "name": "Student List Report",
+    "ref_doctype": "Student",
+    "report_type": "Query Report",
+    "is_standard": "No",
+    "module": "Student Management",
+    "query": "SELECT name, first_name, last_name, email FROM `tabStudent`"
+})
+doc.insert()
+frappe.db.commit()
+2025-07-23 11:32:39,893 INFO ipython import frappe
+
+doc = frappe.get_doc({
+    "doctype": "Report",
+    "report_name": "Student List Report",  # Correct field, not 'name'
+    "ref_doctype": "Student",
+    "report_type": "Query Report",
+    "is_standard": "No",
+    "module": "Student Management",
+    "query": "SELECT name, first_name, last_name, email FROM `tabStudent`"
+})
+doc.insert()
+frappe.db.commit()
+2025-07-23 11:32:39,893 INFO ipython frappe.get_doc({
+    "doctype": "Document Link",
+    "link_doctype": "Faculty",        # The DocType we want to link from (the target)
+    "link_fieldname": "faculty",      # The fieldname in Course that links to Faculty
+    "parent": "Course",               # The source DocType where the field exists
+    "parenttype": "DocType",
+    "group": "Links"                  # Group name under which it appears in the UI
+}).insert()
+2025-07-23 11:32:39,893 INFO ipython doc = frappe.get_doc("DocType", "Course")
+
+# Avoid duplicates
+already_linked = any(link.link_doctype == "Faculty" for link in doc.links)
+if not already_linked:
+    doc.append("links", {
+        "link_doctype": "Faculty",
+        "link_fieldname": "faculty",  # field must exist in Course
+        "group": "Links"
+    })
+
+    doc.save()
+    frappe.db.commit()
+    print("✅ Document Link added from Course to Faculty.")
+else:
+    print("ℹ️ Link to Faculty already exists.")
+2025-07-23 11:32:39,893 INFO ipython === session end ===
+2025-07-25 11:30:08,679 INFO ipython === bench console session ===
+2025-07-25 11:30:08,680 INFO ipython frappe.call({
+  method: 'edutech.api.student_summary.get_student_summary',
+  args: {
+    student_ids: ['Gary Ryan'],  // use real name
+    filters: {
+      show_course: true,
+      show_grade: true,
+      show_attendance: true
+    }
+  },
+  callback: (r) => console.log(r.message)
+})
+2025-07-25 11:30:08,680 INFO ipython frappe.call({
+  method: 'edutech.api.student_summary.get_student_summary',
+  args: {
+    student_ids: ['Gary'],
+    filters: {
+      show_course: true,
+      show_grade: true,
+      show_attendance: true
+    }
+  },
+  callback: (r) => console.log(r.message)
+})
+2025-07-25 11:30:08,680 INFO ipython === session end ===

@@ -1,0 +1,66 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_c042655db68e78aa --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c042655db68e78aa | /usr/bin/gzip >> ./education.local/private/backups/20250722_120002-education_local-database.sql.gz
+
+Backup Summary for education.local at 2025-07-22 12:00:03.015056
+Config  : ./education.local/private/backups/20250722_120002-education_local-site_config_backup.json 94.0B
+Database: ./education.local/private/backups/20250722_120002-education_local-database.sql.gz         809.1KiB
+Backup for Site education.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_c042655db68e78aa --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c042655db68e78aa | /usr/bin/gzip >> ./education.local/private/backups/20250722_180002-education_local-database.sql.gz
+
+Backup Summary for education.local at 2025-07-22 18:00:04.385829
+Config  : ./education.local/private/backups/20250722_180002-education_local-site_config_backup.json 116.0B
+Database: ./education.local/private/backups/20250722_180002-education_local-database.sql.gz         834.2KiB
+Backup for Site education.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_c042655db68e78aa --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c042655db68e78aa | /usr/bin/gzip >> ./education.local/private/backups/20250723_120002-education_local-database.sql.gz
+
+Backup Summary for education.local at 2025-07-23 12:00:05.817798
+Config  : ./education.local/private/backups/20250723_120002-education_local-site_config_backup.json 183.0B
+Database: ./education.local/private/backups/20250723_120002-education_local-database.sql.gz         845.6KiB
+Backup for Site education.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_c042655db68e78aa --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c042655db68e78aa | /usr/bin/gzip >> ./education.local/private/backups/20250723_180002-education_local-database.sql.gz
+
+Backup Summary for education.local at 2025-07-23 18:00:02.781336
+Config  : ./education.local/private/backups/20250723_180002-education_local-site_config_backup.json 183.0B
+Database: ./education.local/private/backups/20250723_180002-education_local-database.sql.gz         855.5KiB
+Backup for Site education.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_c042655db68e78aa --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c042655db68e78aa | /usr/bin/gzip >> ./education.local/private/backups/20250724_120002-education_local-database.sql.gz
+
+Backup Summary for education.local at 2025-07-24 12:00:05.190175
+Config  : ./education.local/private/backups/20250724_120002-education_local-site_config_backup.json 183.0B
+Database: ./education.local/private/backups/20250724_120002-education_local-database.sql.gz         864.6KiB
+Backup for Site education.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_c042655db68e78aa --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c042655db68e78aa | /usr/bin/gzip >> ./education.local/private/backups/20250724_180002-education_local-database.sql.gz
+
+Backup Summary for education.local at 2025-07-24 18:00:04.907358
+Config  : ./education.local/private/backups/20250724_180002-education_local-site_config_backup.json 183.0B
+Database: ./education.local/private/backups/20250724_180002-education_local-database.sql.gz         875.2KiB
+Backup for Site education.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_c042655db68e78aa --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c042655db68e78aa | /usr/bin/gzip >> ./education.local/private/backups/20250725_120003-education_local-database.sql.gz
+
+Backup Summary for education.local at 2025-07-25 12:00:05.453212
+Config  : ./education.local/private/backups/20250725_120003-education_local-site_config_backup.json 183.0B
+Database: ./education.local/private/backups/20250725_120003-education_local-database.sql.gz         886.5KiB
+Backup for Site education.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_c042655db68e78aa --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c042655db68e78aa | /usr/bin/gzip >> ./education.local/private/backups/20250725_180002-education_local-database.sql.gz
+
+Backup Summary for education.local at 2025-07-25 18:00:04.572620
+Config  : ./education.local/private/backups/20250725_180002-education_local-site_config_backup.json 183.0B
+Database: ./education.local/private/backups/20250725_180002-education_local-database.sql.gz         893.7KiB
+Backup for Site education.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_c042655db68e78aa --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c042655db68e78aa | /usr/bin/gzip >> ./education.local/private/backups/20250728_120001-education_local-database.sql.gz
+
+Backup Summary for education.local at 2025-07-28 12:00:02.213608
+Config  : ./education.local/private/backups/20250728_120001-education_local-site_config_backup.json 183.0B
+Database: ./education.local/private/backups/20250728_120001-education_local-database.sql.gz         901.6KiB
+Backup for Site education.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_c042655db68e78aa --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c042655db68e78aa | /usr/bin/gzip >> ./education.local/private/backups/20250728_180002-education_local-database.sql.gz
+
+Backup Summary for education.local at 2025-07-28 18:00:05.512312
+Config  : ./education.local/private/backups/20250728_180002-education_local-site_config_backup.json 183.0B
+Database: ./education.local/private/backups/20250728_180002-education_local-database.sql.gz         911.6KiB
+Backup for Site education.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_c042655db68e78aa --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c042655db68e78aa | /usr/bin/gzip >> ./education.local/private/backups/20250729_120003-education_local-database.sql.gz
+
+Backup Summary for education.local at 2025-07-29 12:00:05.247387
+Config  : ./education.local/private/backups/20250729_120003-education_local-site_config_backup.json 183.0B
+Database: ./education.local/private/backups/20250729_120003-education_local-database.sql.gz         917.6KiB
+Backup for Site education.local has been successfully completed

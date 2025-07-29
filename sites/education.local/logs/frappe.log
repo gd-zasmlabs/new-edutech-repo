@@ -1,0 +1,458 @@
+2025-07-22 15:26:50,440 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'docs': '{"name":"Student1","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"idx":0,"issingle":0,"is_virtual":0,"is_tree":0,"istable":0,"editable_grid":1,"track_changes":0,"module":"Student Management","naming_rule":"","sort_field":"modified","sort_order":"DESC","read_only":0,"in_create":0,"allow_copy":0,"allow_rename":1,"allow_import":0,"hide_toolbar":0,"track_seen":0,"max_attachments":0,"document_type":"","engine":"InnoDB","is_submittable":0,"show_name_in_global_search":0,"custom":0,"beta":0,"has_web_view":0,"allow_guest_to_view":0,"email_append_to":0,"show_title_field_in_link":0,"translated_doctype":0,"is_calendar_and_gantt":0,"quick_entry":0,"grid_page_length":50,"track_views":0,"queue_in_background":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"force_re_route_to_default_view":0,"show_preview_popup":0,"protect_attached_files":0,"index_web_pages_for_search":1,"row_format":"Dynamic","doctype":"DocType","fields":[{"name":"e62t2219og","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":1,"fieldname":"details_tab","label":"Details","fieldtype":"Tab Break","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e622anefcn","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":2,"fieldname":"section_break_j3kg","label":"Contact Info","fieldtype":"Section Break","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62ncv91te","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":3,"fieldname":"student_id","label":"Student ID","fieldtype":"Data","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":1,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":1,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e620e5qear","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":4,"fieldname":"first_name","label":"First Name","fieldtype":"Data","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":1,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":1,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e625hi09bt","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":5,"fieldname":"last_name","label":"Last Name","fieldtype":"Data","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62km90dsl","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":6,"fieldname":"gender","label":"Gender","fieldtype":"Select","options":"Male\\nFemale\\nOther","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62f33uu5n","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":7,"fieldname":"date_of_birth","label":"Date of Birth","fieldtype":"Date","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62qvjjuki","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":8,"fieldname":"email","label":"Email","fieldtype":"Data","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62hg033qq","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":9,"fieldname":"phone","label":"Phone","fieldtype":"Data","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62r0gnotu","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":10,"fieldname":"address","label":"Address","fieldtype":"Small Text","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62s95ipt4","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":11,"fieldname":"more_info_tab","label":"More Info","fieldtype":"Tab Break","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"}],"permissions":[{"name":"e62qjjch93","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"permissions","parenttype":"DocType","idx":1,"permlevel":0,"role":"System Manager","read":1,"write":1,"create":1,"submit":0,"cancel":0,"delete":1,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"if_owner":0,"select":0,"doctype":"DocPerm"}],"states":[],"actions":[],"links":[],"__last_sync_on":"2025-07-22T09:56:00.037Z"}', 'method': 'check_pending_migration', 'cmd': 'run_doc_method'}
+2025-07-22 15:28:05,058 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'docs': '{"name":"Student1","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"idx":0,"issingle":0,"is_virtual":0,"is_tree":0,"istable":0,"editable_grid":1,"track_changes":0,"module":"Student Management","naming_rule":"","sort_field":"modified","sort_order":"DESC","read_only":0,"in_create":0,"allow_copy":0,"allow_rename":1,"allow_import":0,"hide_toolbar":0,"track_seen":0,"max_attachments":0,"document_type":"","engine":"InnoDB","is_submittable":0,"show_name_in_global_search":0,"custom":0,"beta":0,"has_web_view":0,"allow_guest_to_view":0,"email_append_to":0,"show_title_field_in_link":0,"translated_doctype":0,"is_calendar_and_gantt":0,"quick_entry":0,"grid_page_length":50,"track_views":0,"queue_in_background":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"force_re_route_to_default_view":0,"show_preview_popup":0,"protect_attached_files":0,"index_web_pages_for_search":1,"row_format":"Dynamic","doctype":"DocType","fields":[{"name":"e62t2219og","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":1,"fieldname":"details_tab","label":"Details","fieldtype":"Tab Break","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e622anefcn","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":2,"fieldname":"section_break_j3kg","label":"Contact Info","fieldtype":"Section Break","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62ncv91te","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":3,"fieldname":"student_id","label":"Student ID","fieldtype":"Data","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":1,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":1,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e620e5qear","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":4,"fieldname":"first_name","label":"First Name","fieldtype":"Data","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":1,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":1,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e625hi09bt","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":5,"fieldname":"last_name","label":"Last Name","fieldtype":"Data","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62km90dsl","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":6,"fieldname":"gender","label":"Gender","fieldtype":"Select","options":"Male\\nFemale\\nOther","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62f33uu5n","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":7,"fieldname":"date_of_birth","label":"Date of Birth","fieldtype":"Date","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62qvjjuki","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":8,"fieldname":"email","label":"Email","fieldtype":"Data","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62hg033qq","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":9,"fieldname":"phone","label":"Phone","fieldtype":"Data","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62r0gnotu","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":10,"fieldname":"address","label":"Address","fieldtype":"Small Text","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62s95ipt4","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":11,"fieldname":"more_info_tab","label":"More Info","fieldtype":"Tab Break","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"}],"permissions":[{"name":"e62qjjch93","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"permissions","parenttype":"DocType","idx":1,"permlevel":0,"role":"System Manager","read":1,"write":1,"create":1,"submit":0,"cancel":0,"delete":1,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"if_owner":0,"select":0,"doctype":"DocPerm"}],"states":[],"actions":[],"links":[],"__last_sync_on":"2025-07-22T09:57:14.876Z"}', 'method': 'check_pending_migration', 'cmd': 'run_doc_method'}
+2025-07-22 15:30:03,393 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'doctype': 'Student1', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-22 15:30:07,162 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'docs': '{"name":"Student1","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"idx":0,"issingle":0,"is_virtual":0,"is_tree":0,"istable":0,"editable_grid":1,"track_changes":0,"module":"Student Management","naming_rule":"","sort_field":"modified","sort_order":"DESC","read_only":0,"in_create":0,"allow_copy":0,"allow_rename":1,"allow_import":0,"hide_toolbar":0,"track_seen":0,"max_attachments":0,"document_type":"","engine":"InnoDB","is_submittable":0,"show_name_in_global_search":0,"custom":0,"beta":0,"has_web_view":0,"allow_guest_to_view":0,"email_append_to":0,"show_title_field_in_link":0,"translated_doctype":0,"is_calendar_and_gantt":0,"quick_entry":0,"grid_page_length":50,"track_views":0,"queue_in_background":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"force_re_route_to_default_view":0,"show_preview_popup":0,"protect_attached_files":0,"index_web_pages_for_search":1,"row_format":"Dynamic","doctype":"DocType","fields":[{"name":"e62t2219og","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":1,"fieldname":"details_tab","label":"Details","fieldtype":"Tab Break","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e622anefcn","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":2,"fieldname":"section_break_j3kg","label":"Contact Info","fieldtype":"Section Break","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62ncv91te","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":3,"fieldname":"student_id","label":"Student ID","fieldtype":"Data","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":1,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":1,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e620e5qear","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":4,"fieldname":"first_name","label":"First Name","fieldtype":"Data","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":1,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":1,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e625hi09bt","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":5,"fieldname":"last_name","label":"Last Name","fieldtype":"Data","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62km90dsl","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":6,"fieldname":"gender","label":"Gender","fieldtype":"Select","options":"Male\\nFemale\\nOther","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62f33uu5n","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":7,"fieldname":"date_of_birth","label":"Date of Birth","fieldtype":"Date","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62qvjjuki","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":8,"fieldname":"email","label":"Email","fieldtype":"Data","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62hg033qq","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":9,"fieldname":"phone","label":"Phone","fieldtype":"Data","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62r0gnotu","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":10,"fieldname":"address","label":"Address","fieldtype":"Small Text","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"},{"name":"e62s95ipt4","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"fields","parenttype":"DocType","idx":11,"fieldname":"more_info_tab","label":"More Info","fieldtype":"Tab Break","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"sort_options":0,"show_on_timeline":0,"make_attachment_public":0,"doctype":"DocField"}],"permissions":[{"name":"e62qjjch93","creation":"2025-07-22 15:22:06.687852","modified":"2025-07-22 15:22:06.687852","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Student1","parentfield":"permissions","parenttype":"DocType","idx":1,"permlevel":0,"role":"System Manager","read":1,"write":1,"create":1,"submit":0,"cancel":0,"delete":1,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"if_owner":0,"select":0,"doctype":"DocPerm"}],"states":[],"actions":[],"links":[],"__last_sync_on":"2025-07-22T09:59:16.977Z"}', 'method': 'check_pending_migration', 'cmd': 'run_doc_method'}
+2025-07-23 10:44:58,171 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'doctype': 'Student', 'name': 'asd.-0003', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-07-23 10:46:36,283 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'doctype': 'Student', 'name': 'asd.-0003', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-07-23 11:33:05,015 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'name': 'asd.-0003', 'cmd': 'edutech.student_management.doctype.student.student.generate_summary'}
+2025-07-23 11:34:37,190 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'name': 'asd.-0003', 'cmd': 'edutech.student_management.doctype.student.student.generate_summary'}
+2025-07-23 11:50:47,777 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'name': 'asd.-0003', 'cmd': 'edutech.student_management.doctype.student.student.generate_summary'}
+2025-07-23 11:53:55,718 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'name': 'asd.-0003', 'cmd': 'edutech.student_management.doctype.student.student.generate_summary'}
+2025-07-23 11:54:16,831 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'name': 'asd.-0003', 'cmd': 'edutech.student_management.doctype.student.student.generate_summary'}
+2025-07-23 15:27:53,408 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_id': 'asd.-0003', 'cmd': 'edutech.student_management.doctype.student.student.generate_summary'}
+2025-07-24 11:28:23,758 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_id': 'asd.-0003', 'cmd': 'edutech.api.summary.get_student_summary'}
+2025-07-24 11:44:51,177 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_id': 'asd.-0003', 'cmd': 'edutech.api.summary.get_student_summary'}
+2025-07-24 17:29:23,915 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Clifford.-0009"]', 'filters': '["attendance","subjects"]', 'cmd': 'edutech.api.student_report.get_full_report'}
+2025-07-24 17:29:24,966 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Clifford.-0009"]', 'filters': '["attendance","subjects"]', 'cmd': 'edutech.api.student_report.get_full_report'}
+2025-07-24 17:29:26,674 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Clifford.-0009"]', 'filters': '["attendance","subjects"]', 'cmd': 'edutech.api.student_report.get_full_report'}
+2025-07-24 17:29:27,125 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Clifford.-0009"]', 'filters': '["attendance","subjects"]', 'cmd': 'edutech.api.student_report.get_full_report'}
+2025-07-24 17:29:27,312 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Clifford.-0009"]', 'filters': '["attendance","subjects"]', 'cmd': 'edutech.api.student_report.get_full_report'}
+2025-07-24 17:29:33,948 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Nadia.-0012"]', 'filters': '["marks","attendance","subjects"]', 'cmd': 'edutech.api.student_report.get_full_report'}
+2025-07-24 18:32:59,486 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Gary.-0014","Inass.-0013"]', 'filters': '["Course","Grade","Attendance"]', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-24 18:33:00,656 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Gary.-0014","Inass.-0013"]', 'filters': '["Course","Grade","Attendance"]', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-24 18:34:14,013 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Gary.-0014","Inass.-0013","Kate.-0011"]', 'filters': '["Course","Grade","Attendance"]', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-25 09:19:44,076 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Gary.-0014","Nadia.-0012","Samuel.-0010"]', 'filters': '["Course","Grade","Attendance"]', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-25 09:33:28,756 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Gary.-0014","Nadia.-0012","Samuel.-0010"]', 'filters': '["Course","Grade","Attendance"]', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-25 09:33:29,883 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Gary.-0014","Nadia.-0012","Samuel.-0010"]', 'filters': '["Course","Grade","Attendance"]', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-25 09:33:30,264 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Gary.-0014","Nadia.-0012","Samuel.-0010"]', 'filters': '["Course","Grade","Attendance"]', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-25 09:52:51,319 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Gary.-0014","Nadia.-0012","Samuel.-0010"]', 'filters': '["Course","Grade","Attendance"]', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-25 09:52:52,262 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Gary.-0014","Nadia.-0012","Samuel.-0010"]', 'filters': '["Course","Grade","Attendance"]', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-25 09:52:52,710 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Gary.-0014","Nadia.-0012","Samuel.-0010"]', 'filters': '["Course","Grade","Attendance"]', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-25 09:52:52,902 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Gary.-0014","Nadia.-0012","Samuel.-0010"]', 'filters': '["Course","Grade","Attendance"]', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-25 09:52:53,080 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Gary.-0014","Nadia.-0012","Samuel.-0010"]', 'filters': '["Course","Grade","Attendance"]', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-25 09:52:53,257 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'students': '["Gary.-0014","Nadia.-0012","Samuel.-0010"]', 'filters': '["Course","Grade","Attendance"]', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-25 10:41:53,236 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Clifford.-0009","Gary.-0014"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.student_summary.get_student_summary'}
+2025-07-25 10:41:54,131 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Clifford.-0009","Gary.-0014"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.student_summary.get_student_summary'}
+2025-07-25 10:41:54,412 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Clifford.-0009","Gary.-0014"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.student_summary.get_student_summary'}
+2025-07-25 10:41:54,614 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Clifford.-0009","Gary.-0014"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.student_summary.get_student_summary'}
+2025-07-25 10:41:54,822 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Clifford.-0009","Gary.-0014"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.student_summary.get_student_summary'}
+2025-07-25 10:41:54,985 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Clifford.-0009","Gary.-0014"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.student_summary.get_student_summary'}
+2025-07-25 10:41:55,205 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Clifford.-0009","Gary.-0014"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.student_summary.get_student_summary'}
+2025-07-25 10:41:55,386 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Clifford.-0009","Gary.-0014"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.student_summary.get_student_summary'}
+2025-07-25 10:41:55,574 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Clifford.-0009","Gary.-0014"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.student_summary.get_student_summary'}
+2025-07-25 10:41:55,755 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Clifford.-0009","Gary.-0014"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.student_summary.get_student_summary'}
+2025-07-25 10:41:55,955 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Clifford.-0009","Gary.-0014"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.student_summary.get_student_summary'}
+2025-07-25 10:48:42,340 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Aline.-0008","Ariana.-0005","asd.-0003","Brijesh.-0004","Clifford.-0009","Gary.-0014","Inass.-0013","Isaac.-0007","Kate.-0011","Nadia.-0012","Samuel.-0010","Ülkü.-0006"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.student_summary.get_student_summary'}
+2025-07-25 14:23:25,228 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Nadia.-0012","Samuel.-0010"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.student_summary.get_student_summary'}
+2025-07-25 14:46:11,486 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Nadia.-0012","Samuel.-0010"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.student_summary.get_student_summary'}
+2025-07-28 11:16:38,840 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Aline.-0008","Ariana.-0005","asd.-0003"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-28 12:16:34,805 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Clifford.-0009","Gary.-0014","Nadia.-0012","Samuel.-0010"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-28 12:31:24,947 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Clifford.-0009","Gary.-0014"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-28 12:31:25,935 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Clifford.-0009","Gary.-0014"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-28 12:51:30,721 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Clifford.-0009","Gary.-0014"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-28 12:51:31,236 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Clifford.-0009","Gary.-0014"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-28 12:51:31,693 ERROR frappe New Exception collected in error log
+Site: education.local
+Form Dict: {'student_ids': '["Clifford.-0009","Gary.-0014"]', 'filters': '{"show_course":true,"show_grade":true,"show_attendance":true}', 'cmd': 'edutech.api.api.get_student_summary'}
+2025-07-29 10:27:33,427 ERROR frappe Could not take error snapshot: name 'override_whitelisted_methods' is not defined
+Site: education.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/glavin/education-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return frappe.local.request_cache[func][args_key]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/glavin/education-bench/apps/frappe/frappe/app.py", line 100, in application
+    init_request(request)
+  File "/home/glavin/education-bench/apps/frappe/frappe/app.py", line 197, in init_request
+    for before_request_task in frappe.get_hooks("before_request"):
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1619, in get_hooks
+    hooks = _dict(_load_app_hooks())
+                  ^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/utils/caching.py", line 59, in wrapper
+    return_val = func(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1588, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1454, in get_module
+    return importlib.import_module(modulename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/glavin/education-bench/apps/edutech/edutech/hooks.py", line 10, in <module>
+    override_whitelisted_methods.update({
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'override_whitelisted_methods' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/glavin/education-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return frappe.local.request_cache[func][args_key]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/glavin/education-bench/apps/frappe/frappe/utils/error.py", line 86, in log_error_snapshot
+    log_error(title=str(exception), defer_insert=True)
+  File "/home/glavin/education-bench/apps/frappe/frappe/utils/error.py", line 61, in log_error
+    error_log = frappe.get_doc(
+                ^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1308, in get_doc
+    return frappe.model.document.get_doc(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/model/document.py", line 83, in get_doc
+    controller = get_controller(doctype)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/model/base_document.py", line 67, in get_controller
+    return import_controller(doctype)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/model/base_document.py", line 89, in import_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1619, in get_hooks
+    hooks = _dict(_load_app_hooks())
+                  ^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/utils/caching.py", line 59, in wrapper
+    return_val = func(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1588, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1454, in get_module
+    return importlib.import_module(modulename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/glavin/education-bench/apps/edutech/edutech/hooks.py", line 10, in <module>
+    override_whitelisted_methods.update({
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'override_whitelisted_methods' is not defined
+2025-07-29 10:27:33,431 ERROR frappe Failed to run after request hook
+Site: education.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/glavin/education-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return frappe.local.request_cache[func][args_key]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/glavin/education-bench/apps/frappe/frappe/app.py", line 100, in application
+    init_request(request)
+  File "/home/glavin/education-bench/apps/frappe/frappe/app.py", line 197, in init_request
+    for before_request_task in frappe.get_hooks("before_request"):
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1619, in get_hooks
+    hooks = _dict(_load_app_hooks())
+                  ^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/utils/caching.py", line 59, in wrapper
+    return_val = func(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1588, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1454, in get_module
+    return importlib.import_module(modulename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/glavin/education-bench/apps/edutech/edutech/hooks.py", line 10, in <module>
+    override_whitelisted_methods.update({
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'override_whitelisted_methods' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/glavin/education-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return frappe.local.request_cache[func][args_key]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/glavin/education-bench/apps/frappe/frappe/website/serve.py", line 19, in get_response
+    endpoint, renderer_instance = path_resolver.resolve()
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/website/path_resolver.py", line 38, in resolve
+    resolve_redirect(self.path, request.query_string)
+  File "/home/glavin/education-bench/apps/frappe/frappe/website/path_resolver.py", line 117, in resolve_redirect
+    redirects = frappe.get_hooks("website_redirects")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1619, in get_hooks
+    hooks = _dict(_load_app_hooks())
+                  ^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/utils/caching.py", line 59, in wrapper
+    return_val = func(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1588, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1454, in get_module
+    return importlib.import_module(modulename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/glavin/education-bench/apps/edutech/edutech/hooks.py", line 10, in <module>
+    override_whitelisted_methods.update({
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'override_whitelisted_methods' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/glavin/education-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return frappe.local.request_cache[func][args_key]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/glavin/education-bench/apps/frappe/frappe/app.py", line 133, in application
+    response = handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/permissions.py", line 883, in wrapper
+    return fn(e, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/app.py", line 396, in handle_exception
+    response = get_response("message", http_status_code=http_status_code)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/website/serve.py", line 23, in get_response
+    return handle_exception(e, endpoint, path, http_status_code)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/permissions.py", line 883, in wrapper
+    return fn(e, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/website/serve.py", line 37, in handle_exception
+    return ErrorPage(exception=e).render()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 84, in render
+    html = self.get_html()
+           ^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/website/utils.py", line 534, in cache_html_decorator
+    html = func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 92, in get_html
+    self.init_context()
+  File "/home/glavin/education-bench/apps/frappe/frappe/website/page_renderers/error_page.py", line 14, in init_context
+    super().init_context()
+  File "/home/glavin/education-bench/apps/frappe/frappe/website/page_renderers/base_template_page.py", line 15, in init_context
+    self.context.update(get_website_settings())
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/website/doctype/website_settings/website_settings.py", line 172, in get_website_settings
+    hooks = frappe.get_hooks()
+            ^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1619, in get_hooks
+    hooks = _dict(_load_app_hooks())
+                  ^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/utils/caching.py", line 59, in wrapper
+    return_val = func(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1588, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1454, in get_module
+    return importlib.import_module(modulename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/glavin/education-bench/apps/edutech/edutech/hooks.py", line 10, in <module>
+    override_whitelisted_methods.update({
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'override_whitelisted_methods' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/glavin/education-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return frappe.local.request_cache[func][args_key]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/glavin/education-bench/apps/frappe/frappe/app.py", line 147, in application
+    run_after_request_hooks(request, response)
+  File "/home/glavin/education-bench/apps/frappe/frappe/app.py", line 162, in run_after_request_hooks
+    for after_request_task in frappe.get_hooks("after_request"):
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1619, in get_hooks
+    hooks = _dict(_load_app_hooks())
+                  ^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/utils/caching.py", line 59, in wrapper
+    return_val = func(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1588, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/glavin/education-bench/apps/frappe/frappe/__init__.py", line 1454, in get_module
+    return importlib.import_module(modulename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/glavin/education-bench/apps/edutech/edutech/hooks.py", line 10, in <module>
+    override_whitelisted_methods.update({
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'override_whitelisted_methods' is not defined
